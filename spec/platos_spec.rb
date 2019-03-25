@@ -10,7 +10,7 @@ describe Plato do
 	describe '#list_platos' do
 		it 'list of platos with price' do
 			orden = Plato.new(platos)
-			expect(orden.list_platos).to eq ([platos])
+			expect(orden.list_platos).to eq (platos)
 		end	
 	end		
 end

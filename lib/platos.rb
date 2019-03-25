@@ -6,8 +6,7 @@ class Plato
 				'Maduro con queso' => 60,
 				'pollo con tajadas' => 110,
 				'cerdo con tajadas' => 100})
-		@platos = []
-		@platos.push(list_plato)
+		@platos = list_plato
 	end
 
 	def list_platos
